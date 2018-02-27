@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Quests
+    public class Quest
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -16,7 +16,7 @@ namespace Engine
         public List<QuestCompletionItem> QuestCompletionItems { get; set; }
         public Item RewardItem { get; set; }
         
-        public Quests(int id, string name, string description, int rewardExperiencePoints, int rewardGold)
+        public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold)
         {
             ID = id;
             Name = name;
