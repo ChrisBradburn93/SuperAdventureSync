@@ -24,4 +24,6 @@ namespace Engine
             Quests = new List<PlayerQuest>();
         }
     }
+    public Location CurrentLocation { get; set; }
+
 }

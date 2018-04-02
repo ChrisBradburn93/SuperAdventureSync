@@ -8,10 +8,10 @@ namespace Engine
 {
    public class PlayerQuest
     {
-        public Quests Details { get; set; }
+        public Quest Details { get; set; }
         public bool IsCompleted { get; set; }
 
-        public PlayerQuest(Quests details)
+        public PlayerQuest(Quest details)
         {
             Details = details;
             IsCompleted = false;
